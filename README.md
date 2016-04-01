@@ -28,5 +28,4 @@ Go in this folder in the terminal and type:
 $ npm install
 ```
 
-Now create a real-aws.json file by copying aws.json and fill it with the right values.
-Region is already filled to the one in Ireland
+Now create a real-aws.json file by copying aws.json and fill the keys.

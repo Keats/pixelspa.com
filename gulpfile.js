@@ -10,8 +10,7 @@ gulp.task("publish", function() {
    "Cache-Control": "max-age=315360000, no-transform, public"
   };
 
-  return gulp.src("./public/**")
-    .pipe(awspublish.gzip({ ext: ".gz" }))
+  return gulp.src("./dist/**")
     .pipe(publisher.publish(headers), 10)
     .pipe(publisher.cache())
     .pipe(awspublish.reporter());
