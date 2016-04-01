@@ -1,7 +1,7 @@
 {
   "region": "eu-west-1",
   "params": {
-    "Bucket": "pixelspa.com"
+    "Bucket": "www.pixelspa.com"
   },
   "accessKeyId": "...",
   "secretAccessKey": "..."
