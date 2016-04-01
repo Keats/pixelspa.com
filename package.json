@@ -1,0 +1,22 @@
+{
+  "name": "pixelspa.com",
+  "version": "1.0.0",
+  "description": "pixelspa.com website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeAreWizards/pixelspa.com.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/WeAreWizards/pixelspa.com/issues"
+  },
+  "homepage": "https://github.com/WeAreWizards/pixelspa.com#readme",
+  "devDependencies": {
+    "gulp-sass": "^2.2.0"
+  }
+}
