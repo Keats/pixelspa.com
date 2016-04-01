@@ -1,0 +1,8 @@
+{
+  "region": "eu-west-1",
+  "params": {
+    "Bucket": "<test-bucket>"
+  },
+  "accessKeyId": "...",
+  "secretAccessKey": "..."
+}
