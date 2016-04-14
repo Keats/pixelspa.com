@@ -1,0 +1,26 @@
+$header-height: 70px;
+
+#header {
+  height: calc($header-height + 2rem);
+  padding: 2rem 0;
+  lost-utility: clearfix;
+  
+  .logo {
+    float: left;
+  }
+
+  nav {
+    font-weight: bold;
+    text-align: right;
+    line-height: $header-height;
+  }
+
+  a {
+    color: black;
+    margin-right: 1rem;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

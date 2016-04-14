@@ -65,3 +65,10 @@ Simply go in the folder and run:
 ```bash
 $ npm run publish
 ```
+
+
+## Add a project
+```
+hugo new project/name-of-project
+```
+A file will be created in content/project

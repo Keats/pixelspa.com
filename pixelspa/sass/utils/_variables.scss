@@ -1,0 +1,23 @@
+
+$colours: (
+  background: white,
+  text: black,
+  cta-bg: #c2f0ff,
+  footer-links: #5dd9ff,
+);
+
+/// Retrieve color from $colors map ie. `color(primary, base)`
+@function color($name, $variant:null) {
+  @if not map-has-key($colours, $name) {
+    @error 'There is no colour or palette named `#{$name}` in $colours.';
+  }
+
+  @if ($variant != null) {
+    @if not map-has-key(map-get($colours, $name), $variant) {
+      @error 'There is no variant named `#{$variant}` in `#{$name}` palette.';
+    }
+    @return map-get(map-get($colours, $name), $variant);
+  } @else {
+    @return map-get($colours, $name);
+  }
+}

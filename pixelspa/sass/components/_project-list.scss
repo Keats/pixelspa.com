@@ -1,0 +1,27 @@
+#project-list {
+  text-align: center;
+  
+  section:nth-child(odd) {
+    .project-summary__pic {
+      order: 1;
+    }
+  }
+
+  .project-summary {
+    lost-flex-container: row;
+    margin-top: 2rem;
+    
+    &__pic {
+      lost-column: 7/12 flex;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &__desc {
+      lost-column: 5/12 flex;
+      padding: 1rem;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<div id="project-list">
+  <div class="restrict-width">
+    <h2>Latest work</h2>
+
+    {{ range $project := .Data.Pages }}
+      <section class="project-summary">
+        <div class="project-summary__pic">
+          <img srcset="
+            {{ .Site.BaseURL }}{{$project.Source.Dir}}{{ index $project.Params.listimages 0 }} 1x,
+            {{ .Site.BaseURL }}{{$project.Source.Dir}}{{ index $project.Params.listimages 1 }} 2x"
+            alt="{{ .Title }}">
+        </div>
+        <div class="project-summary__desc">
+          <h3>{{ $project.Title }}</h3>
+        </div>
+      </section>
+    {{ end }}
+  </div>
+</div>

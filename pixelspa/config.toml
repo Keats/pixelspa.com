@@ -1,0 +1,11 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-gb"
+title = "Pixel Spa"
+disableRSS = true
+
+
+[params]
+  name = "Pixel Spa"
+  description = "UI/UX agency"
+  # The path must be relative to the static folder
+  # favicon = "favicon.ico"

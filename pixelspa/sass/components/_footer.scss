@@ -1,0 +1,32 @@
+#footer {
+  background-color: black;
+  color: white;
+  height: 350px;
+  text-align: center;
+  padding: 3rem;
+  
+  .social-links {
+    margin: 2rem 0;
+  }
+  
+  .menu {
+    list-style: none;
+
+    li {
+      display: inline;
+      margin-right: 0.5rem;
+      padding-right: 1rem;
+      border-right: 1px solid white;
+
+      &:last-of-type {
+        margin-right: 0;
+        padding-right: 0;
+        border-right: none;
+      }
+      
+      a {
+        color: color(footer-links);        
+      }
+    }
+  }
+}
