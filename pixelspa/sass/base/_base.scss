@@ -5,13 +5,7 @@
 html, body {
   background-color: colors(background);
   color: colors(text);
-  font-family: 'PT Sans', sans-serif;
 }
-
-a {
-  text-decoration: none;
-}
-
 
 .restrict-width {
   width: 960px;
@@ -20,9 +14,9 @@ a {
   display: block;
 }
 
-
-// TODO: typography
-h1,h2,h3 {
-  margin: 0;
-  font-family: 'Exo 2', sans-serif;
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  lost-flex-container: column;
 }

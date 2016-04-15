@@ -11,7 +11,9 @@
             alt="{{ .Title }}">
         </div>
         <div class="project-summary__desc">
-          <h3>{{ $project.Title }}</h3>
+          <h3><span class="highlight">{{ $project.Title }}</span></h3>          
+          <p><strong>{{ $project.Params.client }}</strong></p>
+          <p>{{ range $tag := $project.Params.tags }}{{$tag}}{{ end }}</p>
         </div>
       </section>
     {{ end }}

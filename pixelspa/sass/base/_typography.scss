@@ -1,0 +1,66 @@
+$base-font-size: 18px;
+$base-line-height: $base-font-size * 1.25;
+
+$text-font: 'PT Sans', sans-serif;
+$title-font: 'Exo 2', sans-serif;
+
+// modular scale (1.5 ratio)
+$type-scale: (
+  small: 0.667rem,
+  base: 1rem,
+  large: 1.5rem,
+  xlarge: 2.25rem,
+  xxlarge: 3.375rem,
+);
+@function type-scale($level) {
+  @return map-get($type-scale, $level);
+}
+
+$line-heights: (
+  -1: $base-line-height,
+  0: $base-line-height,
+  1: $base-line-height * 2,
+  2: $base-line-height * 2,
+  3: $base-line-height * 2,
+);
+@function line-height($level) {
+  @return map-get($line-heights, $level);
+}
+
+body {
+  font-size: $base-font-size;
+  font-family: $text-font;
+}
+
+h1, h2, h3 {
+  font-family: $title-font;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: type-scale(xxlarge);
+  line-height: line-height(3);
+  margin-bottom: line-height(3);
+}
+
+h2 {
+  font-size: type-scale(xlarge);
+  line-height: line-height(2);
+  margin-bottom: line-height(2);
+}
+
+h3 {
+  font-size: type-scale(large);
+  line-height: line-height(1);
+  margin-bottom: line-height(0);
+}
+
+p {
+  line-height: line-height(0);
+  margin-bottom: line-height(0);
+  margin-top: 0;
+}

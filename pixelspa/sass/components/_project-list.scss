@@ -9,7 +9,7 @@
 
   .project-summary {
     lost-flex-container: row;
-    margin-top: 2rem;
+    margin-bottom: 5rem;
     
     &__pic {
       lost-column: 7/12 flex;
@@ -21,7 +21,8 @@
 
     &__desc {
       lost-column: 5/12 flex;
-      padding: 1rem;
+      text-align: left;
+      padding: 0.5rem;
     }
   }
 }
