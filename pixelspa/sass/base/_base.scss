@@ -7,16 +7,16 @@ html, body {
   color: colors(text);
 }
 
+.centered {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  lost-flex-container: column;
+}
+
 .restrict-width {
   width: 960px;
   margin: 0 auto;
   height: 100%;
   display: block;
-}
-
-.centered {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  lost-flex-container: column;
 }

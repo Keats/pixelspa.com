@@ -1,0 +1,7 @@
+<div id="hero">
+  <div class="restrict-width">
+    <h1>{{ .Title }}</h1>
+    <h2>{{ .Params.client }}</h2>
+    <p>{{ range $tag := .Params.tags }}{{$tag}}{{ end }}</p>
+  </div>
+</div>

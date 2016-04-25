@@ -40,6 +40,13 @@ $ npm install
 
 Now create a real-aws.json file by copying aws.json and fill the keys with the IAM user secrets.
 
+## Running the site locally
+```bash
+$ cd pixelspa
+$ hugo serve
+```
+Site will be available at http://localhost:1313/
+
 ## Add case study
 TBD
 

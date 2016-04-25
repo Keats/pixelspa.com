@@ -4,4 +4,21 @@
   align-items: center;
   // TODO: change that?
   min-height: 300px;
+  clear: both;
+  margin-bottom: 2rem;
+
+  .restrict-width {
+    position: relative;
+  }
+}
+
+.hero__tagline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
+}
+
+.hero__pic {
+  float: right;
 }

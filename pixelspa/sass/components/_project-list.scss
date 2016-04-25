@@ -1,21 +1,37 @@
 #project-list {
   text-align: center;
+
+  h2 {
+    margin-bottom: 3rem;
+  }
   
-  section:nth-child(odd) {
+  a:nth-child(odd) {
     .project-summary__pic {
       order: 1;
+      // manually removing margins from lost-column
+      margin-left: 30px;
+      margin-right: 0;
     }
   }
 
   .project-summary {
     lost-flex-container: row;
     margin-bottom: 5rem;
+    color: color(text);
     
+    .pic-frame {
+      padding: 8px;
+      border: 2px solid black;
+    }
+
     &__pic {
       lost-column: 7/12 flex;
 
       img {
         width: 100%;
+        border: 2px solid black;
+        // removes the margin bottom html somehow adds
+        vertical-align: middle;
       }
     }
 
@@ -23,6 +39,10 @@
       lost-column: 5/12 flex;
       text-align: left;
       padding: 0.5rem;
+    }
+
+    &__tags {
+      color: #8C8A8A;
     }
   }
 }
