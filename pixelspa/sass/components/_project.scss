@@ -2,7 +2,37 @@
 .project__content {
   margin: 5rem 0;
   
-  h1 {
+  p, blockquote, figure, h1, h2, h3, h4 {
+    @extend .restrict-width;
+  }
+
+  .has-bg {
+    width: 100%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  h1, h2, h3 {
     text-align: center;
+  }
+
+  h2 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  figure {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    img {
+      padding-bottom: 1rem;
+    }
+  }
+
+  figcaption {
+    color: color(caption);
+    font-size: 90%;
   }
 }

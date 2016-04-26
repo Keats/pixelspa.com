@@ -1,4 +1,4 @@
-<header id="header">
+<header id="header" {{ if (isset .Params "colour") }}style="background-color:{{ .Params.colour }}"{{ end }}>
   <div class="restrict-width">
     <div class="logo">
     <a href="/">

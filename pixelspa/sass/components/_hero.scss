@@ -22,3 +22,15 @@
 .hero__pic {
   float: right;
 }
+
+
+// individual pages project
+.project-hero {
+  h1, h3 {
+    margin-bottom: 1.5rem;
+  }
+
+  &__tags {
+    color: color(tags);
+  }
+}

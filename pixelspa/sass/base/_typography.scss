@@ -4,17 +4,12 @@ $base-line-height: $base-font-size * 1.25;
 $text-font: 'PT Sans', sans-serif;
 $title-font: 'Exo 2', sans-serif;
 
-// modular scale (1.5 ratio)
-$type-scale: (
-  small: 0.667rem,
-  base: 1rem,
-  large: 1.5rem,
-  xlarge: 2.25rem,
-  xxlarge: 3.375rem,
-);
-@function type-scale($level) {
-  @return map-get($type-scale, $level);
-}
+$h1-font-size: 3rem;
+$h2-font-size: 2.5rem;
+$h3-font-size: 1.94rem;
+$h4-font-size: 1.56rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
 
 body {
   font-size: $base-font-size;
@@ -23,6 +18,7 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,15 +29,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: type-scale(xxlarge);
+  font-size: $h1-font-size;
 }
 
 h2 {
-  font-size: type-scale(xlarge);
+  font-size: $h2-font-size;
 }
 
 h3 {
-  font-size: type-scale(large);
+  font-size: $h3-font-size;
 }
 
 p {
@@ -53,21 +49,21 @@ blockquote {
   padding: 1rem;
   padding-left: 0;
   position: relative;
-  margin: 0;
-  font-size: type-scale(large);
+  margin: 0 3rem;
+  font-size: 1.25rem;
   
   // change name when adding icon
   .icon-quotes-right {
     position: absolute;
     top: 0;
     transform: rotate(180deg);
-    color: blue;
+    color: color(quote);
   }
 
   p {
     font-style: italic;
     margin-bottom: 0;
     padding: 0 1rem;
-    color: red;
+    color: color(quote);
   }
 }

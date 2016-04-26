@@ -1,0 +1,26 @@
+<div class="siblings">
+  <div class="siblings__prev">
+    {{ if .Prev }}
+      <div class="siblings__project">
+        {{ partial "project-data.html" .Prev }}
+      </div>
+
+      <div class="arrow-sibling">
+        <div class="arrow"><</div>
+        <span class="arrow-caption">Prev</span>
+      </div>
+    {{ end }}
+  </div>
+  <div class="siblings__next">
+    {{ if .Next }}
+      <div class="siblings__project">
+        {{ partial "project-data.html" .Next }}
+      </div>
+
+      <div class="arrow-sibling">
+        <div class="arrow">></div>
+        <span class="arrow-caption">Next</span>
+      </div>
+    {{ end }}
+  </div>
+</div>

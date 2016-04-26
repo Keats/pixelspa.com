@@ -1,7 +1,9 @@
-<div id="hero">
-  <div class="restrict-width">
+<div id="hero" class="project-hero" style="background-color:{{ .Params.colour }}">
+  <div class="restrict-width centered">
     <h1>{{ .Title }}</h1>
-    <h2>{{ .Params.client }}</h2>
-    <p>{{ range $tag := .Params.tags }}{{$tag}}{{ end }}</p>
+    <h3>{{ .Params.client }}</h3>
+    <p class="project-hero__tags">
+      {{ delimit .Params.tags ", " }}
+    </p>
   </div>
 </div>
