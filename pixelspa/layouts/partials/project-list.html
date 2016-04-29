@@ -3,23 +3,25 @@
     <h2>Latest work</h2>
 
     {{ range $project := .Data.Pages }}
-      <a href="{{$project.Permalink}}" class="project-summary">
+      <section class="project-summary">
           <div class="project-summary__pic">
             <div class="pic-frame">
-            <img srcset="
-              {{ .Site.BaseURL }}{{$project.Source.Dir}}{{ index $project.Params.listimages 0 }} 1x,
-              {{ .Site.BaseURL }}{{$project.Source.Dir}}{{ index $project.Params.listimages 1 }} 2x"
-              alt="{{ .Title }}">
+            <a href="{{$project.Permalink}}">
+              <img srcset="
+                {{ .Site.BaseURL }}{{$project.Source.Dir}}{{ index $project.Params.listimages 0 }} 1x,
+                {{ .Site.BaseURL }}{{$project.Source.Dir}}{{ index $project.Params.listimages 1 }} 2x"
+                alt="{{ .Title }}">
+              </a>
           </div>
           </div>
           <div class="project-summary__desc">
-            <h3><span class="highlight">{{ $project.Title }}</span></h3>          
+            <h3><a href="{{$project.Permalink}}"><span class="highlight">{{ $project.Title }}</span></a></h3>
             <p><strong>{{ $project.Params.client }}</strong></p>
             <p class="tags">
               {{ delimit $project.Params.tags ", " }}
             </p>
           </div>
-      </a>
+      </section>
     {{ end }}
   </div>
 </div>

@@ -5,7 +5,7 @@
     margin-bottom: 3rem;
   }
   
-  a:nth-child(odd) {
+  section:nth-child(odd) {
     .project-summary__pic {
       order: 1;
       // manually removing margins from lost-column
