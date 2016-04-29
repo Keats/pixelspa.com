@@ -1,24 +1,26 @@
+{{/* Next and Prev are reversed for some unknown reasons */}}
+
 <div class="siblings">
   <div class="siblings__prev">
-    {{ if .Prev }}
-      <div class="siblings__project">
-        {{ partial "project-data.html" .Prev }}
-      </div>
-
-      <div class="arrow-sibling">
-        <div class="arrow"><</div>
-        <span class="arrow-caption">Prev</span>
-      </div>
-    {{ end }}
-  </div>
-  <div class="siblings__next">
     {{ if .Next }}
       <div class="siblings__project">
         {{ partial "project-data.html" .Next }}
       </div>
 
       <div class="arrow-sibling">
-        <div class="arrow">></div>
+        <div class="arrow arrow--prev"><span class="icon-arrow" /></div>
+        <span class="arrow-caption">Prev</span>
+      </div>
+    {{ end }}
+  </div>
+  <div class="siblings__next">
+    {{ if .Prev }}
+      <div class="siblings__project">
+        {{ partial "project-data.html" .Prev }}
+      </div>
+
+      <div class="arrow-sibling">
+        <div class="arrow arrow--next"><span class="icon-arrow" /></div>
         <span class="arrow-caption">Next</span>
       </div>
     {{ end }}
