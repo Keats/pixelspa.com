@@ -36,7 +36,9 @@
       }
       
       a {
-        color: color(footer-links);        
+        &:hover {
+          color: color(footer-links);
+        }
       }
     }
   }

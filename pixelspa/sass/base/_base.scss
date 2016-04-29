@@ -25,3 +25,9 @@ html, body {
   font-size: 80%;
   color: color(tags);
 }
+
+[class^="icon-"], [class*=" icon-"] {
+  &:hover {
+    color: color(icon-hover);
+  }
+}
