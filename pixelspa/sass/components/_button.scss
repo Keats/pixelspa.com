@@ -5,4 +5,11 @@
   color: black;
   display: inline-block;
   font-family: 'Exo 2', sans-serif;
+
+  &:hover {
+    background: black;
+    color: white;
+    padding: 1rem 2.5rem;
+    border: 3px solid black;
+  }
 }

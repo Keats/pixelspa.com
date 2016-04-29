@@ -11,6 +11,10 @@
       // manually removing margins from lost-column
       margin-left: 30px;
       margin-right: 0;
+
+      .pic-frame {
+        float: right;
+      }
     }
   }
 
@@ -18,18 +22,25 @@
     lost-flex-container: row;
     margin-bottom: 5rem;
     color: color(text);
+    clear: both;
     
     .pic-frame {
       padding: 8px;
       border: 2px solid black;
+      width: 534px;
+
+      &:hover {
+        border: 4px solid black;
+        padding: 6px;
+      }
     }
 
     &__pic {
       lost-column: 7/12 flex;
 
       img {
-        width: 100%;
-        border: 2px solid black;
+        width: 514px;
+        height: 394px;
         // removes the margin bottom html somehow adds
         vertical-align: middle;
       }

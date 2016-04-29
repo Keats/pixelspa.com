@@ -1,6 +1,11 @@
 .highlight {
   display: inline;
   background-color: color(highlight);
-  padding: 0.5rem 0;
+  padding: 0.2rem 0;
   box-shadow: 10px 0 0 color(highlight), -10px 0 0 color(highlight);
+
+  &:hover {
+    background-color: color(highlight-hover);
+    box-shadow: 10px 0 0 color(highlight-hover), -10px 0 0 color(highlight-hover);
+  }
 }
