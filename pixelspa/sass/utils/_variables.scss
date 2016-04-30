@@ -6,10 +6,10 @@ $colours: (
   highlight: #def9af,
   highlight-hover: #E6CFFF,
   icon-hover: #def9af,
-  footer-hover: #def9af,
-  tags: #9b9b9b,
+  footer-links: #def9af,
+  tags: rgba(0, 0, 0, 0.7),
   quote: #7fae2e,
-  caption: #9b9b9b,
+  caption: rgba(0, 0, 0, 0.7),
 );
 
 /// Retrieve color from $colors map ie. `color(primary, base)`

@@ -2,15 +2,24 @@
 .project__content {
   margin: 5rem 0;
   
-  p, blockquote, figure, h1, h2, h3, h4 {
+  p, blockquote, h1, h2, h3, h4 {
     @extend .restrict-width;
     width: 700px;
   }
 
+  figure {
+    @extend .restrict-width;
+    width: 780px;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+
   .has-bg {
     width: 100%;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
   }
 
   h1, h2, h3 {
