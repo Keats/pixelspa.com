@@ -12,11 +12,26 @@
 
     .arrow {
       display: block;
-      padding: 1rem 1.3rem;
+      padding: 1rem;
+      margin-bottom: 0.5rem;
       border: 2px solid black;
+      transition: all 0.5s;
 
       &--prev {
         transform: rotate(180deg);
+      }
+
+      &:hover {
+        background-color: black;
+
+        .icon-arrow {
+          color: white;
+        }
+      }
+
+      .icon-arrow {
+        font-size: 1.5rem;
+        vertical-align: middle;
       }
     }
 

@@ -5,6 +5,7 @@
   // TODO: change that?
   min-height: 300px;
   clear: both;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 
   .restrict-width {
@@ -17,20 +18,35 @@
   top: 0;
   left: 0;
   text-align: left;
+  line-height: 1.2;
 }
 
 .hero__pic {
+  margin-top: 1rem;
+  width: 600px;
   float: right;
 }
 
 
 // individual pages project
 .project-hero {
-  h1, h3 {
+  h1, h2 {
     margin-bottom: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
   }
 
   &__tags {
     color: color(tags);
+  }
+
+  .restrict-width {
+    width: 700px;
   }
 }
