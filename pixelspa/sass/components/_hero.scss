@@ -5,7 +5,7 @@
   // TODO: change that?
   min-height: 300px;
   clear: both;
-  margin-top: 2rem;
+  padding-top: 2rem;
   margin-bottom: 2rem;
 
   .restrict-width {
@@ -30,6 +30,8 @@
 
 // individual pages project
 .project-hero {
+  padding-top: 0 !important;
+  
   h1, h2 {
     margin-bottom: 1.5rem;
   }

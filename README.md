@@ -16,6 +16,7 @@ Open a terminal and type:
 
 ```bash
 $ brew update
+$ brew install git
 $ brew install node
 $ brew install hugo
 ```
