@@ -57,3 +57,51 @@
     }
   }
 }
+
+@media screen and (max-width: 900px) {
+  #project-list {
+    padding: 0 2rem;
+
+    .project-summary {
+      lost-flex-container: column;
+      width: 536px;
+      margin: 0 auto;
+      margin-bottom: 2rem;
+      
+      &__pic, &__desc {
+        width: 100%;
+      }
+
+      &__pic {
+        order: 0 !important;
+        width: 100%;
+        margin: 0 !important;
+      }
+
+      .pic-frame {
+        margin: 0 auto;
+        float: none !important;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #project-list {
+    .project-summary {
+      width: 100%;
+
+      &__pic {
+        .pic-frame {
+          width: 100%;
+        }
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

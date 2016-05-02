@@ -7,10 +7,12 @@
         {{ partial "project-data.html" .Next }}
       </div>
 
-      <div class="arrow-sibling">
-        <div class="arrow arrow--prev"><span class="icon-arrow" /></div>
-        <span class="arrow-caption">Prev</span>
-      </div>
+      <a href="{{.Next.Permalink}}">
+        <div class="arrow-sibling">
+          <div class="arrow arrow--prev"><span class="icon-arrow" /></div>
+          <span class="arrow-caption">Prev</span>
+        </div>
+      </a>
     {{ end }}
   </div>
   <div class="siblings__next">
@@ -19,10 +21,12 @@
         {{ partial "project-data.html" .Prev }}
       </div>
 
-      <div class="arrow-sibling">
-        <div class="arrow arrow--next"><span class="icon-arrow" /></div>
-        <span class="arrow-caption">Next</span>
-      </div>
+      <a href="{{.Prev.Permalink}}">
+        <div class="arrow-sibling">
+          <div class="arrow arrow--next"><span class="icon-arrow" /></div>
+          <span class="arrow-caption">Next</span>
+        </div>
+      </a>
     {{ end }}
   </div>
 </div>

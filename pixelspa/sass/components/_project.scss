@@ -47,3 +47,12 @@
     font-size: 90%;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .project__content {
+    p, blockquote, h1, h2, h3, h4, figure {
+      width: 100%;
+      padding: 0 2rem;
+    }
+  }
+}

@@ -2,6 +2,7 @@
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   lost-flex-container: row;
+  min-height: 120px;
 
   .arrow-sibling {
     position: absolute;
@@ -68,5 +69,11 @@
     .arrow-sibling {
       right: 50px;
     }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .siblings__project {
+    display: none;
   }
 }

@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "https://pixelspa.com/"
 languageCode = "en-gb"
 title = "Pixel Spa"
 disableRSS = true
@@ -8,4 +8,4 @@ disableRSS = true
   name = "Pixel Spa"
   description = "UI/UX agency"
   # The path must be relative to the static folder
-  # favicon = "favicon.ico"
+  favicon = "img/pixelfaccia.ico"

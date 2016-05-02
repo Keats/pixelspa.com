@@ -24,8 +24,21 @@
 .hero__pic {
   margin-top: 1rem;
   width: 600px;
+  max-width: 100%;
   float: right;
 }
+
+@media screen and (max-width: 900px) {
+  .hero__tagline {
+    position: inherit;
+    margin: 0 2rem;
+  }
+
+  .hero__pic {
+    float: none;
+  }
+}
+
 
 
 // individual pages project
