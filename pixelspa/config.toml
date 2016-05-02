@@ -1,4 +1,4 @@
-baseurl = "https://pixelspa.com/"
+baseurl = "http://www.pixelspa.com/"
 languageCode = "en-gb"
 title = "Pixel Spa"
 disableRSS = true

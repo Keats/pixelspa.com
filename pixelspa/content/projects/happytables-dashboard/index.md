@@ -6,6 +6,7 @@ date = "2016-04-28"
 tags = ["UX", "UI", "Dashboard"]
 url = "happytables-dashboard"
 listimages = ["happytables-list.png", "happytables-list@2x.png"]
+draft = true
 +++
 
 # Brief

@@ -15,7 +15,7 @@ gulp.task("publish", function() {
    "Cache-Control": "max-age=315360000, no-transform, public"
   };
 
-  return gulp.src("./dist/**")
+  return gulp.src("./pixelspa/public/**")
     .pipe(publisher.publish(headers), 10)
     .pipe(publisher.cache())
     .pipe(awspublish.reporter());
