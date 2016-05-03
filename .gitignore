@@ -6,3 +6,5 @@ real-aws.json
 .DS_Store
 pixelspa/public
 app.css
+letsencrypt.log
+ssl.sh
