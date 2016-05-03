@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # The mighty pixelspa.com
 
 ## Quick glossary
@@ -129,3 +130,6 @@ $ ./deploy.sh
 
 Note that the whole website is cached so it can take up to a day for something to appear. We can trigger a manual invalidation at https://console.aws.amazon.com/cloudfront/home?region=us-west-2#distribution-settings:E8IXNA15B4UNR
 Invalidating is more involved so i'll need to be there.
+=======
+See Master branch
+>>>>>>> 5294320b33aeae9650a85f69a32bc71b48489ae5
