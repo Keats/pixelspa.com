@@ -1,9 +1,3 @@
 node_modules
 npm-debug.log
-real-aws.json
-.awspublish-pixelspa.com
-.awspublish-www.pixelspa.com
 .DS_Store
-app.css
-letsencrypt.log
-ssl.sh
