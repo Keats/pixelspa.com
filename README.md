@@ -43,7 +43,6 @@ Now create a real-aws.json file by copying aws.json and fill the keys with the I
 
 ## Running the site locally
 ```bash
-$ cd pixelspa
 $ hugo server
 ```
 Site will be available at http://localhost:1313/
