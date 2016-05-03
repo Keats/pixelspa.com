@@ -4,7 +4,6 @@ real-aws.json
 .awspublish-pixelspa.com
 .awspublish-www.pixelspa.com
 .DS_Store
-public
 app.css
 letsencrypt.log
 ssl.sh
