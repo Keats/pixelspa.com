@@ -3,7 +3,7 @@
 ## Quick glossary
 - Git: version control tool, allow you to go back to previous version and see history
 - Github: service for Git in the cloud
-- AWS/S3: amazon services, think of S3 as a big hard drive where your site is
+- Cloudfare: a caching service that provides https
 - Npm: javascript package manager, we use it for the css/publishing
 - Hugo: the static site builder, transforms markdown into html, not used yet
 
@@ -38,8 +38,6 @@ Go in this folder in the terminal and type to install the nodejs dependencies:
 ```bash
 $ npm install
 ```
-
-Now create a real-aws.json file by copying aws.json and fill the keys with the IAM user secrets.
 
 ## Running the site locally
 ```bash
@@ -103,22 +101,6 @@ blabla
 
 The color is mandatory and can be any valid css color (rgb, rgba, hex, etc).
 
-## Push to github
-To ensure your changes are `in the cloud`TM, you want to push them to github using git.
-You can either use a gui but here's how it looks in the command line.
-
-These commands to be executed at the root of this folder, ie `Google Drive/!PIXELSPA/pixelspa.com` for example on your iMac. Use `cd` to get there.
-
-```bash
-# Adds all the files for the commit
-$ git add . 
-# Replace your_message by something appropriate
-$ git commit -m "your_message"
-$ git push
-```
-After `git push`, github should be up-to-date.
-If you get an error about fast-forward or something like that, try to use the GUI or ask me for more details.
-
 ## Publish
 Simply type:
 
@@ -126,5 +108,4 @@ Simply type:
 $ ./deploy.sh
 ```
 
-Note that the whole website is cached so it can take up to a day for something to appear. We can trigger a manual invalidation at https://console.aws.amazon.com/cloudfront/home?region=us-west-2#distribution-settings:E8IXNA15B4UNR
-Invalidating is more involved so i'll need to be there.
+This will do the commit and push to github so you should not need to actually use git unless you edit directly from github. At which point i'll edit this readme
