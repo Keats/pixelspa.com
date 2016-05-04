@@ -54,7 +54,7 @@ As well as editing each article block, it was necessary to edit the page at high
 
 I evaluated and prototyped different options using very simple wireframes with colorful blocks.
 
-{{< pic src="article-blocks-prototype@2x.png" caption="Example of simple flow to move an article to a different slot" >}}
+{{< pic src="article-blocks-prototype.png" src2x="article-blocks-prototype@2x.png"caption="Example of simple flow to move an article to a different slot" >}}
 
 Moving A to B it’s a pretty simple flow part from the fact that it’s not. The interface needs to answer questions like “What article am I moving?”, “Where can I move it to?”, “ How is it going to look like?”, “What happens when I’ve finished swapping articles?”, “What if I changed my mind?”
 
