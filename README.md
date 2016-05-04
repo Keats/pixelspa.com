@@ -46,7 +46,7 @@ $ hugo server
 Site will be available at http://localhost:1313/
 
 ## Add case study
-All case studies are located in `pixelspa/content/projects`.
+All case studies are located in `content/projects`.
 The easiest way to add a new project is to copy one of the existing folder and rename it.
 
 There is a `index.md` file for each project that contains the metadata and the text. For example:
@@ -55,7 +55,7 @@ There is a `index.md` file for each project that contains the metadata and the t
 +++
 title = "The Sun UK homepage WYSIWYG editor"
 client = "Human Made/The Sun UK"
-colours = []
+colour = "#ccc"
 date = "2016-04-27"
 tags = ["TAG", "TAG", "TAG"]
 url = "sun-editor"
@@ -64,7 +64,7 @@ draft = true
 +++
 ```
 Note that all the metadata need to be between `+++` lines.
-`colours` is unused for now, it's meant to represent the colour palette later on. `url` is what url you want the project page to be, ie it will be `http://www.pixelspa.com/sun-editor` in the example above.
+`colour` is the background color of the header. `url` is what url you want the project page to be, ie it will be `http://www.pixelspa.com/sun-editor` in the example above.
 
 ## Blocks
 Markdown doesn't work magically for all the use case the design needs to do so I added some blocks.
@@ -91,6 +91,8 @@ The `src` and `src2x` field need to refer to the filenames in the same folder as
 
 Note: don't put double quotes (`"`) in the caption.
 
+Recommended sizes: min 1650px width for a @2x (780px @1x)
+
 ### Bgtext
 Gives a background color to the text. Use it like so:
 ```
@@ -109,3 +111,7 @@ $ ./deploy.sh
 ```
 
 This will do the commit and push to github so you should not need to actually use git unless you edit directly from github. At which point i'll edit this readme
+
+---
+
+Remember to save in Sublime to see changes in local!
