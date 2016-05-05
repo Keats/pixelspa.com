@@ -1,7 +1,13 @@
 <figure {{ if .Get "bg" }}class="has-bg" style="background-color: {{ .Get "bg" }}"{{ end }}>
-    <img 
-        alt="{{ .Get "caption" }}"
-        srcset="{{ .Page.Site.BaseURL }}{{ .Page.Source.Dir}}{{ .Get "src" }} 1x, {{ .Page.Site.BaseURL }}{{ .Page.Source.Dir}}{{ .Get "src2x" }} 2x" />
+	{{ if .Get "src2x" }}
+	    <img 
+	        alt="{{ .Get "caption" }}"
+	        srcset="{{ .Page.Site.BaseURL }}{{ .Page.Source.Dir}}{{ .Get "src" }} 1x, {{ .Page.Site.BaseURL }}{{ .Page.Source.Dir}}{{ .Get "src2x" }} 2x" />
+    {{ else }}
+     	<img 
+	        alt="{{ .Get "caption" }}"
+	        src="{{ .Page.Site.BaseURL }}{{ .Page.Source.Dir}}{{ .Get "src" }}" />
+    {{ end }}
     {{ if .Get "caption"}}
         <figcaption>
             <p>{{ .Get "caption" }}</p>
