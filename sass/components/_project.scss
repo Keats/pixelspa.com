@@ -13,6 +13,7 @@
 
     p {
       margin-top: 0;
+      font-size: 90%;
     }
   }
 
@@ -27,7 +28,7 @@
     padding-top: 3rem;
   }
 
-  h1, h2, h3 {
+  h1, h2 {
     text-align: center;
   }
 
@@ -36,6 +37,11 @@
     margin-bottom: 3rem;
   }
 
+  h3 {
+    text-align: left;
+    margin-top: 2rem;
+  }
+  
   figure {
     text-align: center;
     margin-top: 3rem;
