@@ -16,7 +16,7 @@ Editors and journalists at The Sun UK that daily update the content of the homep
 
 In a day-long energising workshop that involved editors, product managers, designers and software engineers, we talked about what type of users would use the platform and what type of tasks would they want to accomplish.
 
-To gather everyone’s ideas I’ve chosen the Vision Board format, that compares users, needs/goals, features and the value they bring:
+To gather everyone’s ideas I’ve chosen the Vision Board format, that compares users, needs/goals, features and the value they bring.
 
 {{< pic src="vision.png" src2x="vision@2x.png" caption="Vision Board" >}}
 
@@ -51,7 +51,7 @@ Testing the toolbar on the tiniest of the article blocks seems to work fine:
 
 {{< pic src="toolbar-interaction.gif" caption="A little prototype of the toolbar" >}}
 
-### Swap Articles/Sections
+### Swapping Articles/Sections
 
 As well as editing each article block, it was necessary to edit the page at higher level: change article position and move entire sections of the page up and down.
 
@@ -73,7 +73,7 @@ Once happy with the overall layout I started translating my sketches into more h
 
 To source content for the homepage and potentially the rest of the website we created a panel where it's possible to search and filter the library of articles and images by keyword, date range and Section.
 
-From the panel you can see what the latest articles are and which one are still in progress. Color coding for the bars on the left allow to see at glance the section the articles belong to.
+From the panel you can see what the latest articles are and which ones are still in progress. Color coding for the bars on the left allows to see at glance the section the articles belong to.
 
 {{< pic src="left-panel.png" src2x="left-panel@2x.png" caption="Articles list" >}}
 
