@@ -2,7 +2,7 @@ baseurl = "https://pixelspa.com/"
 languageCode = "en-gb"
 title = "Pixel Spa"
 disableRSS = true
-
+googleAnalytics = "UA-77433325-1"
 
 [params]
   name = "Pixel Spa"
