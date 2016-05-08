@@ -67,6 +67,14 @@
     color: color(caption);
     font-size: 90%;
   }
+
+  a {
+    border-bottom: 3px solid #d8d8d8;
+
+    &:hover {
+      border-bottom: 3px solid color(project-link-hover);
+    }
+  }
 }
 
 @media screen and (max-width: 900px) {
