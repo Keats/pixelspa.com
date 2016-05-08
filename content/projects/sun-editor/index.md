@@ -3,7 +3,7 @@ title = "The Sun UK homepage WYSIWYG editor"
 client = "Human Made / The Sun UK"
 colour = "#C2F0FF"
 date = "2016-05-01"
-tags = ["UX", "Interface", "Wordpress"]
+tags = ["UI", "UX", "CMS"]
 url = "the-sun-editor"
 listimages = ["sun-list.png", "sun-list@2x.png"]
 +++
@@ -18,11 +18,11 @@ In a day-long energising workshop that involved editors, product managers, desig
 
 To gather everyone’s ideas I’ve chosen the Vision Board format, that compares users, needs/goals, features and the value they bring.
 
-{{< pic src="vision.png" src2x="vision@2x.png" caption="Vision Board" >}}
+{{< pic src="vision.jpg" src2x="vision@2x.jpg" caption="Vision Board" >}}
 
 ### Needs vs Features: Drag & drop or click?
 
-Some of the editors were really keen in having a ‘drag and drop’ functionality because nice and intuitive.
+Some of the editors were really keen in having a ‘drag and drop’ functionality because it is nice and intuitive.
 
 In this case ‘drag & drop’ is considered a feature, a way to achieve a goal, the goal of ‘moving things around easily’. What if there were plenty of other solutions to get the same outcome? 
 
@@ -43,7 +43,7 @@ After having analysed all the materials from the workshop I started sketching so
 
 ### Editing Tools
 
-We successively dived into more detail starting from the article preview itself. The editors needed some tools to accomplish certain tasks like: edit articles headlines and images, resize them, move articles to different slots. How to access those tools and what the best way to display them? 
+We successively dived into more detail starting from the article preview itself. The editors needed some tools to accomplish certain tasks such as editing articles headlines and images, resizing them and moving articles to different slots. How to access those tools and what the best way to display them? 
 
 After considering different options we opted for a small toolbar that would appear when clicking on each article block. My aim was to keep the editing interface as invisible as possible, as WYSIWYG should be.
 
@@ -71,7 +71,7 @@ Once happy with the overall layout I started translating my sketches into more h
 
 ### Sourcing Content
 
-To source content for the homepage and potentially the rest of the website we created a panel where it's possible to search and filter the library of articles and images by keyword, date range and Section.
+To source content for the homepage and potentially the rest of the website we created a panel where it's possible to search and filter the library of articles and images by keyword, date range and section.
 
 From the panel you can see what the latest articles are and which ones are still in progress. Color coding for the bars on the left allows to see at glance the section the articles belong to.
 
@@ -84,7 +84,7 @@ The clipboard is a temporary storage for articles.
 
 Editors can now play around with the homepage layout and, when they need to retrieve some of the articles they removed, they can just reimport them from the clipboard.
 
-Useful, indeed!
+Useful indeed!
 
 {{< pic src="left-panel-clipboard.png" src2x="left-panel-clipboard@2x.png" caption="Clipboard" >}}
 

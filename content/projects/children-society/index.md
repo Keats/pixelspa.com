@@ -3,7 +3,7 @@ title = "The Children’s Society Digital Rebranding"
 client = "Manifesto Digital / The Children’s Society"
 colour = "#def9af"
 date = "2016-04-25"
-tags = ["Charity", "UX", "Visual design"]
+tags = ["Design", "UX", "website"]
 url = "childrens-society"
 listimages = ["children-list.png", "children-list@2x.png"]
 +++
