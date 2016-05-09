@@ -5,7 +5,7 @@ disableRSS = true
 googleAnalytics = "UA-77433325-1"
 
 [params]
-  name = "Pixel Spa"
-  description = "UI/UX agency"
+  name = "Pixel Spa - UX/UI design"
+  description = "Collaborating with startups and digital agencies all over the world to create great products with beautiful design and optimised user experience at their core"
   # The path must be relative to the static folder
   favicon = "img/pixelfaccia.ico"
