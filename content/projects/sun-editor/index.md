@@ -6,6 +6,7 @@ date = "2016-05-01"
 tags = ["UI", "UX", "CMS"]
 url = "the-sun-editor"
 listimages = ["sun-list.png", "sun-list@2x.png"]
+description = "I joined the Wordpress gurus at Human Made and The Sun UK tech team as UX consultant and visual designer to help them design their internal content management system."
 +++
 
 I joined the Wordpress gurus at Human Made and The Sun UK tech team as UX consultant and visual designer to help them design their internal content management system.

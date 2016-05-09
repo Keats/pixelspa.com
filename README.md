@@ -61,6 +61,7 @@ tags = ["TAG", "TAG", "TAG"]
 url = "sun-editor"
 listimages = ["sun-list.png", "sun-list@2x.png"]
 draft = true
+description = "Blabla"
 +++
 ```
 Note that all the metadata need to be between `+++` lines.

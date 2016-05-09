@@ -6,6 +6,7 @@ date = "2016-04-25"
 tags = ["Design", "UX", "website"]
 url = "childrens-society"
 listimages = ["children-list.png", "children-list@2x.png"]
+description = "I designed a shiny new website for The Children’s Society, a UK charity which fights childhood poverty, harm and neglect through direct practice, policy work and campaigning."
 +++
 
 The Children’s Society is a UK charity which fights childhood poverty, harm and neglect through direct practice, policy work and campaigning. They recently undertook their first rebranding exercise in 16 years and needed someone to execute the new brand digitally. I had the chance to work on this project while working at Manifesto Digital.
