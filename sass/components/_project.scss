@@ -69,10 +69,10 @@
   }
 
   a {
-    border-bottom: 3px solid #d8d8d8;
+    color: color(project-link);
 
     &:hover {
-      border-bottom: 3px solid color(project-link-hover);
+      text-decoration: underline;
     }
   }
 }
