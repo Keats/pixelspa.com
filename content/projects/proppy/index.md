@@ -6,6 +6,7 @@ date = "2016-05-08"
 tags = ["UI", "UX", "Web app"]
 url = "proppy"
 listimages = ["proppy-list.png", "proppy-list@2x.png"]
+description = "Proppy is a must have web app for any type of freelancer or small agency that needs to send proposals to clients. Being myself the perfect target audience for this product, I had the real pleasure to work for the guys at We Are Wizards to make it happen."
 +++
 
 Proppy is a tool for freelancers and small agencies needing to send proposals to clients. I had the real pleasure of working with the guys at We Are Wizards to bring the project to life, helping them recognise the issues they needed to address, as well as designing the interface and a temporary brand.
