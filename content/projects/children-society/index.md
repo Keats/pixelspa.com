@@ -8,7 +8,7 @@ url = "childrens-society"
 listimages = ["children-list.png", "children-list@2x.png"]
 +++
 
-The Children’s Society is a UK charity which fights childhood poverty, harm and neglect through direct practice, policy work and campaigning. They recently undertook their first rebranding exercise in 16 years and needed someone to execute the new brand digitally. I had the chance to work on this project while working at Manifesto Digital.
+The Children’s Society is a UK charity fighting against child poverty. It recently undertook its first rebranding exercise in over 16-years. To my amazement, I had the chance to work on this project, concepting and creating digital brand work during my time at Manifesto Digital.
 
 ## The goal
 
@@ -22,13 +22,13 @@ Develop and implement a new design for the Children’s Society website that emb
 
 ## Immersion & discovery
 
-After an energising kick-off meeting followed by a phase of research that allowed us to learn more about the Children’s Society audience, we started redefining user journeys experimenting with different possible layouts and creative routes. 
+After an energising kick-off meeting, we conducted a phase of research that allowed us to learn more about the Children’s Society’s target audience. From there, we started redefining user journeys, experimenting with different possible layouts and concepting creative routes.
 
-With new print guidelines in hand, I had the hard job to represent digitally their new brand essence, which, summarised in 2 words was:
+With new print guidelines in hand, I had to digitally represent a two-word mantra for the brand, and finalise what it hoped to achieve online:
 
 {{< pic src="hard-truth.png" src2x="hard-truth@2x.png" >}}
 
-Definitely a drastic change comparing to where they were coming from. But to fully understand how hard hitting they wanted to be, we asked them to position themselves in on a line where we compared them to similar organizations and their messages.
+This is a drastic change compared to the guidelines that the charity was using originally. But to fully understand how hard-hitting they wanted to be with their new brand identity, we asked them to position themselves on a scale, on which we compared The Children’s Society to similar organisations and their individual brand messages.
 
 
 {{< pic src="tcs-line.png" src2x="tcs-line@2x.png" bg="#c2f0ff" >}}
@@ -36,17 +36,17 @@ Definitely a drastic change comparing to where they were coming from. But to ful
 
 ## Moodboard
 
-I’ve built a moodboard of different design elements to understand what type of website they were going for. We sticked all the different examples on the wall of our meeting room and literally asked the client to point at what they liked/disliked.
+I built a moodboard of different design elements in order to understand what type of website they were going for. We stuck all the different examples on the wall of our meeting room and literally asked the client to point at what they liked/disliked.
 
 {{< pic src="likes-and-dislikes-2.png" src2x="likes-and-dislikes-2@2x.png" >}}
 
 {{< bgtext "#f5f6f4" >}}
-We agreed that the website would have to include large good quality images, bold statements, facts and figures. White on black, like hard truths. We wanted to create an engaging experience for the users but decided to stay away from the long scrolling websites patterns. A megamenu as navigation was our solution to show the complex architecture of the website, which we also helped simplify. 
+We agreed that the website would need large, high quality images, bold statements, facts and figures; white on black, in fitting with the hard truths mantra I outlined in the immersion and discovery stage. We wanted to create an engaging experience for the users, but decided to stay away from the long-scrolling structure of some websites nowadays. A megamenu as navigation was our solution to show the complex architecture of the website, which we also helped simplify in the early stages. 
 {{< /bgtext >}}
 
 
 ## Sketching / Wireframing
-Once I got a good feeling of what was the best creative route, I started sketching and wireframing some of the journeys which we quickly prototyped and tested. 
+Once I got a good feeling for the best creative route, I started sketching and wireframing some of the different possible user journeys, which we quickly prototyped and tested.
 
 These were the final layouts:
 
@@ -56,7 +56,7 @@ These were the final layouts:
 
 
 ## Design 
-Here is how all our initial studies translated into the final design of the pages:
+This is how all our initial studies translated into the final design of the pages:
 
 {{< pic src="tcs-home-about.png" src2x="tcs-home-about@2x.png" caption="Homepage and landing page design" >}}
 

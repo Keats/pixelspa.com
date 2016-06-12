@@ -47,10 +47,11 @@ h3 {
   font-size: $h3-font-size;
 }
 
-p {
+p, li {
   line-height: 1.6;
   margin-top: 0;
 }
+
 
 blockquote {
   padding: 1rem;
