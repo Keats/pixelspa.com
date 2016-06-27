@@ -75,17 +75,17 @@
   }
 
   a {
-    color: color(project-link);
+    border-bottom: 3px solid #B6D67E;
 
     &:hover {
-      text-decoration: underline;
+      border-bottom: 3px solid #E6CFFF;
     }
   }
 }
 
 @media screen and (max-width: 900px) {
   .project__content {
-    p, blockquote, h1, h2, h3, h4, figure {
+    p, blockquote, h1, h2, h3, h4, figure, ul {
       width: 100%;
       padding: 0 2rem;
     }

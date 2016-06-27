@@ -11,7 +11,7 @@ description = "Proppy is a must have web app for any type of freelancer or small
 
 Proppy is a tool for freelancers and small agencies needing to send proposals to clients. I had the real pleasure of working with the guys at We Are Wizards to bring the project to life, helping them recognise the issues they needed to address, as well as designing the interface and a temporary brand.
 
-## FINDING THE PROBLEM(S)
+## Finding the problem(s)
 
 In order to work out the most important factors for Proppy to consider, I worked closely with the team to investigate the common issues around creating proposals:
 
@@ -61,19 +61,17 @@ Second question:
 
 ***‘What level of customisation would freelancers and companies want for their proposals?’***
 
-This might sound weird, but when I need to get things done I'm a real fan of small choice. That's not only because anything that requires too much decision making takes time and is a source of anxiety, but, in this case, I also have to ensure that even non-designers can create good looking proposals.
+I had to ensure that non-designers are able to create good looking proposals. For this reason, and because decision making is time consuming, I decided to limit the number of style choices and locked the editor to one particular design, albeit a freaking good one. There was one colour scheme, a simple font option, and nothing too unusual in between. I then provided users the freedom to add their brand on top of the base layer, which is why I added customisable covers and logos.
 
-I decided to lock the editor to one style, but a freaking good one. One colour, a simple font, nothing too opinionated, and then give users the freedom to add their brand to it. And that's why we added customisable cover and logo. 
+The design principle behind the editor’s interface is to look as minimal and clean as possible so that whoever is creating the proposal can focus on the work without getting distracted or bogged down by other factors.
 
-The design principle behind the editor's interface it to look as clean as possible, so that people can just focus on what they're writing rather than being distracted by other stuff.
-
-Here is how the current version looks like:
+This is what the current version looks like:
 
 {{< pic src="proppy-editor-clean.png" src2x="proppy-editor-clean@2x.png" caption="This is the editor" >}}
 
 {{< pic src="proppy-editor-blocks.png" src2x="proppy-editor-blocks@2x.png" caption="This is how you create and change blocks." >}}
 
-**What is 'Import' for?**
+### Re-using existing content
 
 Quite early on, I considered an import function for proposals; parts that don’t change so often, like an About section, a Team section, or a Case Study section. How great would it be to be able to quickly and easily import only the Case Studies relevant to a certain project?
 
