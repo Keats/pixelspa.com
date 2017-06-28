@@ -2,6 +2,7 @@
 title = "The Sun UK homepage WYSIWYG editor"
 client = "Human Made / The Sun UK"
 colour = "#C2F0FF"
+draft = true
 date = "2016-05-01"
 tags = ["UI", "UX", "CMS"]
 url = "the-sun-editor"
@@ -13,11 +14,11 @@ I joined the Wordpress gurus at Human Made as a UX consultant and visual designe
 
 ## The brief
 
-The editors and journalists at The Sun UK needed an easy way to populate their homepage and edit the content on the go in today’s fast moving news landscape.  
+The editors and journalists at The Sun UK needed an easy way to populate their homepage and edit the content on the go in today’s fast moving news landscape.
 
 ## Gathering requirements
 
-In an energising, day-long workshop involving editors, product managers, designers and software engineers, we talked about what type of users would use the platform and what type of tasks would they want to accomplish. 
+In an energising, day-long workshop involving editors, product managers, designers and software engineers, we talked about what type of users would use the platform and what type of tasks would they want to accomplish.
 
 To gather everyone’s ideas I chose the Vision Board format, which compares users, needs/goals, features and the value they bring.
 
@@ -73,7 +74,7 @@ To answer those questions these notifications and visual cues play a significant
 
 ## Design
 
-Once both I and the team were happy with the overall layout, I translated my sketches into higher quality mock-ups. 
+Once both I and the team were happy with the overall layout, I translated my sketches into higher quality mock-ups.
 
 ### Sourcing Content
 
