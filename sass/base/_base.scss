@@ -9,9 +9,9 @@ html, body {
 
 .centered {
   display: flex !important;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  lost-flex-container: column;
 }
 
 .restrict-width {
@@ -28,9 +28,10 @@ html, body {
 
 [class^="icon-"], [class*=" icon-"] {
   &:hover {
-    color: color(icon-hover);
+    color: color(primary);
   }
 }
+
 
 @media screen and (max-width: 900px) {
   .restrict-width {

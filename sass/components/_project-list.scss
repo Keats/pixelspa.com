@@ -19,7 +19,8 @@
   }
 
   .project-summary {
-    lost-flex-container: row;
+    display: flex;
+    flex-direction: row;
     margin-bottom: 5rem;
     color: color(text);
     clear: both;
@@ -36,7 +37,7 @@
     }
 
     &__pic {
-      lost-column: 7/12 flex;
+      width: 60%;
 
       img {
         width: 514px;
@@ -47,9 +48,13 @@
     }
 
     &__desc {
-      lost-column: 5/12 flex;
+      width: 40%;
       text-align: left;
       padding: 0.5rem;
+
+      a {
+        border-bottom: 0;
+      }
 
       .client {
         font-size: 1.25rem;
@@ -63,7 +68,7 @@
     padding: 0 2rem;
 
     .project-summary {
-      lost-flex-container: column;
+      flex-direction: column;
       width: 536px;
       margin: 0 auto;
       margin-bottom: 2rem;

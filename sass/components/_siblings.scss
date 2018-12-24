@@ -1,7 +1,8 @@
 .siblings {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  lost-flex-container: row;
+  display: flex;
+  flex-direction: row;
   min-height: 120px;
 
   .arrow-sibling {
@@ -43,7 +44,7 @@
   }
 
   &__prev, &__next {
-    lost-column: 1/2 0 0px;
+    width: 50%;
     padding: 3rem;
     position: relative;
   }
@@ -53,9 +54,6 @@
 
     .siblings__project {
       margin-left: 150px;
-    }
-
-    .arrow {
     }
   }
 
