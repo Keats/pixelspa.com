@@ -1,0 +1,58 @@
+$header-height: 70px;
+
+#header {
+  padding: 2rem 0;
+  lost-utility: clearfix;
+  
+  // the book me icon
+  .show-mobile {
+    display: none;
+    line-height: $header-height;
+    font-size: 2rem;
+
+    &.icon-book-me:hover {
+      color: black;
+    }
+  }
+
+  .logo {
+    float: left;
+  }
+
+  nav {
+    font-weight: bold;
+    text-align: right;
+    line-height: $header-height;
+  }
+
+  nav a {
+    color: black;
+    margin-right: 1rem;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &:hover {
+      border-bottom: 5px solid black;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #header {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #header {
+    .hide-mobile {
+      display: none;
+    }
+
+    .show-mobile {
+      display: block;
+    }
+  }
+}

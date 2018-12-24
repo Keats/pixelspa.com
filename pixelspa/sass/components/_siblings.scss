@@ -1,0 +1,79 @@
+.siblings {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  lost-flex-container: row;
+  min-height: 120px;
+
+  .arrow-sibling {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    cursor: pointer;
+
+    .arrow {
+      display: block;
+      padding: 1rem;
+      margin-bottom: 0.5rem;
+      border: 2px solid black;
+
+      &--prev {
+        transform: rotate(180deg);
+      }
+
+      &:hover {
+        background-color: black;
+
+        .icon-arrow {
+          color: white;
+        }
+      }
+
+      .icon-arrow {
+        font-size: 1.5rem;
+        vertical-align: middle;
+      }
+    }
+
+    .arrow-caption {
+      text-transform: uppercase;
+      display: block;
+      text-align: center;
+    }
+  }
+
+  &__prev, &__next {
+    lost-column: 1/2 0 0px;
+    padding: 3rem;
+    position: relative;
+  }
+
+  &__prev {
+    border-right: 1px solid black;
+
+    .siblings__project {
+      margin-left: 150px;
+    }
+
+    .arrow {
+    }
+  }
+
+  &__next {
+    border-left: 1px solid black;
+
+    .siblings__project {
+      margin-right: 150px;
+    }
+
+    .arrow-sibling {
+      right: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .siblings__project {
+    display: none;
+  }
+}

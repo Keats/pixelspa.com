@@ -1,0 +1,54 @@
+{% extends "index.html" %}
+{% import "macros.html" as macros %}
+
+{% block description %}{{page.description}}{% endblock description %}
+
+{% block header_style %}style="background-color:{{ page.extra.colour }}"{% endblock header_style %}
+
+{% block content %}
+    <div id="hero" class="project-hero" style="background-color:{{ page.extra.colour }}">
+      <div class="restrict-width centered">
+        <h1>{{ page.title }}</h1>
+        <h2>{{ page.extra.client }}</h2>
+        <p class="tags">
+          {{ page.extra.tags | join(sep=", ") }}
+        </p>
+      </div>
+    </div>
+
+    <div class="project__content">
+      {{ page.content | safe }}
+    </div>
+
+    <div class="siblings">
+      <div class="siblings__prev">
+        {% if page.lighter %}
+          <div class="siblings__project">
+              {{ macros::project_pagination(page=page.lighter) }}
+          </div>
+
+          <a href="{{ page.lighter.permalink}}">
+            <div class="arrow-sibling">
+              <div class="arrow arrow--prev"><span class="icon-arrow" /></div>
+              <span class="arrow-caption">Prev</span>
+            </div>
+          </a>
+        {% endif %}
+      </div>
+      <div class="siblings__next">
+        {% if page.heavier %}
+          <div class="siblings__project">
+              {{ macros::project_pagination(page=page.heavier) }}
+          </div>
+
+          <a href="{{ page.heavier.permalink}}">
+            <div class="arrow-sibling">
+              <div class="arrow arrow--next"><span class="icon-arrow" /></div>
+              <span class="arrow-caption">Next</span>
+            </div>
+          </a>
+        {% endif %}
+      </div>
+    </div>
+
+{% endblock content %}

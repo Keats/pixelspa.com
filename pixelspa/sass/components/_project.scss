@@ -1,0 +1,93 @@
+
+.project__content {
+  margin: 5rem 0;
+  
+  p, blockquote, h1, h2, h3, h4, ul {
+    @extend .restrict-width;
+    width: 700px;
+  }
+
+  figure {
+    @extend .restrict-width;
+    width: 780px;
+
+    p {
+      margin-top: 0;
+      font-size: 90%;
+    }
+  }
+
+  blockquote {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    p {
+      margin-top: 0;      
+    }
+  }
+
+  ul {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    list-style: disc inside;
+  }
+
+  p {
+    font-size: 1.25rem;
+    margin-top: 2rem;
+  }
+
+  .has-bg {
+    width: 100%;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  h3 {
+    text-align: left;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  figure {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    img {
+      padding-bottom: 1rem;
+      max-width: 100%;
+    }
+  }
+
+  figcaption {
+    color: color(caption);
+    font-size: 90%;
+  }
+
+  a {
+    border-bottom: 5px solid #B6D67E;
+
+    &:hover {
+      border-bottom: 5px solid #E6CFFF;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .project__content {
+    p, blockquote, h1, h2, h3, h4, figure, ul {
+      width: 100%;
+      padding: 0 2rem;
+    }
+  }
+}

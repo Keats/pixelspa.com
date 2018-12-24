@@ -1,0 +1,19 @@
+.services {
+  background-color: #f5f6f4;
+  margin-bottom: 3rem;
+
+  .blurb {
+    width: 700px;
+    margin: 0 auto;
+    padding: 3rem 0;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .services .blurb {
+    width: 100%;
+    padding: 2rem 0;
+  }
+}

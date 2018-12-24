@@ -1,0 +1,16 @@
+<figure {% if bg %}class="has-bg" style="background-color: {{ bg }}"{% endif %}>
+	{% if src2x %}
+	    <img
+	        alt="{% if caption %}{{ caption }}{% endif %}"
+	        srcset="{{ src }} 1x, {{ src2x }} 2x" />
+    {% else %}
+     	<img
+	        alt="{% if caption %}{{ caption }}{% endif %}"
+	        src="{{src}}" />
+    {% endif %}
+    {% if caption %}
+        <figcaption>
+            <p>{{ caption }}</p>
+        </figcaption>
+    {% endif %}
+</figure>

@@ -1,0 +1,39 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: color(background);
+  color: color(text);
+}
+
+.centered {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  lost-flex-container: column;
+}
+
+.restrict-width {
+  width: 960px;
+  margin: 0 auto;
+  height: 100%;
+  display: block;
+  max-width: 100%;
+}
+
+.tags {
+  color: color(tags);
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  &:hover {
+    color: color(icon-hover);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .restrict-width {
+    width: 100% !important;
+  }
+}

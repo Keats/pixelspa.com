@@ -1,0 +1,7 @@
+{% macro project_pagination(page) %}
+    <h3><a href="{{page.permalink}}"><span class="highlight">{{ page.title }}</span></a></h3>
+    <p><strong>{{ page.extra.client }}</strong></p>
+    <p class="tags">
+      {{ page.extra.tags | join(sep=", ") }}
+    </p>
+{% endmacro project_pagination %}
