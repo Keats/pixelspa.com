@@ -1,11 +1,13 @@
-baseurl = "https://pixelspa.com/"
-languageCode = "en-gb"
-title = "Pixel Spa"
-disableRSS = true
-googleAnalytics = "UA-77433325-1"
+# The URL the site will be built for
+base_url = "https://pixelspa.com/"
 
-[params]
-  name = "Pixel Spa"
-  description = "Beautiful UX/UI design for tech startups, agencies and growing businesses."
-  # The path must be relative to the static folder
-  favicon = "img/pixelfaccia.ico"
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+highlight_code = false
+build_search_index = false
+
+[extra]
+  name = "Barbara Marcantonio @ Pixel Spa"
+  email = "barbara@pixelspa.com"
+  description = "I work with tech teams all over the world to create products that people love."
+  google_analytics = "UA-77433325-1"

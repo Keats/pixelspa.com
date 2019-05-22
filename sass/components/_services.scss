@@ -2,6 +2,14 @@
   background-color: #f5f6f4;
   margin-bottom: 3rem;
 
+  a {
+    border-bottom: 5px solid #B6D67E;
+
+    &:hover {
+      border-bottom: 5px solid #E6CFFF;
+    }
+  }
+
   .blurb {
     width: 700px;
     margin: 0 auto;
@@ -14,6 +22,6 @@
 @media screen and (max-width: 900px) {
   .services .blurb {
     width: 100%;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
   }
 }
